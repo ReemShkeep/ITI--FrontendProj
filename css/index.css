@@ -52,7 +52,6 @@ html {
 }
 
 .navbar .menu a:hover {
-  background-color: #1abc9c;
   color: #fffffff6;
   border-radius: 10%;
   cursor: pointer;
@@ -62,7 +61,6 @@ html {
 
 /*start main */
 .main {
-  background-color: #49f7d4;
   height: 95vh;
   width: 100%;
   top: 0;
@@ -74,12 +72,10 @@ html {
 
 /* the two texts */
 .text {
-  background-color: #1abc9c;
   height: 70vh;
 }
 
 .abouttext {
-  background-color: #1abc9c;
   height: 70vh;
 }
 
@@ -162,8 +158,6 @@ label {
 }
 
 .forminput .btn {
-  background-color:  #1abc9c;
-  border:#1abc9c ;
   color:#ffffff;
   opacity: 0.6;}
 
