@@ -12,25 +12,17 @@
     <link rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/b690dbecc2.js" crossorigin="anonymous"></script>
 
-
-
-
     <title>ITI</title>
 </head>
 <!-- start nav -->
 <div class="navbar">
-    <h1 class="logo"> ITI STUDENTS </h1>
-
+      <a class="logo" href="#home" ><img src="./lab2.jpeg"  style="height:10vh; width: 10vh;"  > </a> 
     <ul class="menu">
-        <li>
-            <a href="#one">PORTOFOLIO</a>
-        </li>
-        <li>
-            <a href="#two">ABOUT</a>
-        </li>
-        <li>
-            <a href="#three">CONTACT</a>
-        </li>
+        <li><a href="#home" >Home</a></li>
+        <li><a href="#contact us" >Contact Us</a></li>
+        <li><a href="#Users" >Users</a></li>
+        <li><a href="#login" >Login</a></li>
+        <li><a href="#register" >Register</a></li>
     </ul>
 </div>
 <!-- end nav bar  -->
@@ -66,27 +58,26 @@
     <!-- starting form -->
     <form method="post" action="" enctype="multipart/form-data">
         <div class="forminput">
-            <input type="text" required>
+            <label>Full name</label><br><br>
+            <input placeholder="Enter Full name" type="text" required>
             <p class="error-msg"></p>
-            <label>Full name</label>
             <p class="err"></p>
             <p id="name"></p>
         </div>
 
         <div class="forminput">
-            <input type="text" required>
+            <label>Email address</label><br><br>
+            <input placeholder="Enter e-mail" type="text" required>
             <p class="error-msg"></p>
-            <label>Email address</label>
             <p class="err"></p>
             <p id="email"></p>
 
         </div>
 
         <div class="forminput">
-            <input id="password" type="number" required>
+            <label>Phone number</label><br><br>
+            <input placeholder="Enter Your phone" id="password" type="number" >
             <p class="error-msg"></p>
-
-            <label>Phone number</label>
             <p class="err"></p>
 
         </div>
@@ -97,7 +88,7 @@
 
             <label>Message</label>
             <p class="err"></p>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary">Send</button><br><br>
         </div>
         <!-- end of the 3rd part contact me  -->
     </form>
