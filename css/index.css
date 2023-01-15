@@ -87,16 +87,17 @@ html {
 
 .contnt {
   padding:  0 25%;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
   color: rgba(255, 246, 246, 0.918);
   text-align: center;
 }
 .contnt video{
 margin: 7.5vw;
-width: 60%;
-height: 50%;
-margin: 15vh 0 0 0;
+width: 120%;
+height: 90%;
+margin: 19vh 0% 14% -13%;
+
 }
 
 
@@ -156,40 +157,43 @@ label {
 
 /* ========================================================================== */
 
+/* strt portofolio & images  */
 
+.imagesheading {
+  margin-left: 39%;
+  padding: 0%;
+}
+.imagesheading Span{
+  padding:3% 0 2% 3% ;
+}
 
+.imagesheading h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 2vw;
+  padding: 2% 0 0 3%;
+}
 
+.imagei,
+.imageii,
+.imageiii,
+.imageiv
+  {
+  height: 30vh;
+  width: 20%;
+  float: left;
+  background-color: #ffffff;
+  padding: 1%;
+  border-radius: 15%;
+  }
 
+.images {
+  /* margin: 0% 0% 25% 25%; */
+  margin: 0% 0% 14% 14%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* margin-left: 25%; */
+}
+/* ========================================================================== */
 
 /* starting foorter  */
 .footer {
@@ -238,10 +242,10 @@ padding: 1%;
   text-decoration: underline;
 }
 
-/* .footer .theSmallFooter {
+.footer .theSmallFooter {
   width: 100%;
 
   background-color: #151e27;
   color: rgb(240, 232, 220);
   text-align: center;
-} */
+}
