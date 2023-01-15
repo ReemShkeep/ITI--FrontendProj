@@ -249,3 +249,39 @@ padding: 1%;
   color: rgb(240, 232, 220);
   text-align: center;
 }
+
+
+/* ============= */
+/* pro_1 */
+#div-pr{
+  color:#151e27;
+  background-color:lightgoldenrodyellow;
+  width: 70vw;
+  height: 60vh;
+  margin: 28vh;
+  padding: 10vh; 
+  overflow: hidden;
+  float: left; }
+  
+  
+  .div_pro img{
+  width: 15vw;
+  height: 28vh;
+  float: left;
+   margin: 1.5vh;
+  /*padding: 3vh 3vh 10vh 3vh;  */
+  }
+  .div_pro p{
+    font-size: 2vw;
+    font-weight:bold;
+    margin-left: 7vw;
+    margin-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: .5vh; 
+   
+    }
+    #div-pr{
+      margin-left: 7vw;
+      padding-top: 23.8vh;
+    }
+/* ============= */
