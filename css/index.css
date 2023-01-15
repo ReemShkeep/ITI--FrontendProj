@@ -13,7 +13,7 @@ html {
   clear: both;
 }
 .container {
-  margin: 0 10%;
+  margin: 0 ;
 }
 
 /* end general */
@@ -24,7 +24,7 @@ html {
   background-color: #2c3e50;
   color: #fffffff6;
   width: 100%;
-  padding: 1% 0;
+  padding:  0;
   z-index: 2;
 }
 
@@ -41,8 +41,8 @@ html {
 }
 .navbar .logo img {
   float: left;
-  /* width: 3vw;
-  height: 4vh; */
+  height:10vh;
+   width: 10vh;
   border-radius: 50%;
 }
 
@@ -58,7 +58,7 @@ html {
   float: left;
   text-decoration: none;
   color: #fffffff6;
-  padding: 3%;
+  padding: 2%;
   font-size: 1.5vw;
   line-height: 300%;
 
@@ -81,100 +81,55 @@ html {
 }
 
 
-/* the start of "about" text   */
 
-/* the two texts */
-.text {
-  height: 70vh;
-}
-
-.abouttext {
-  height: 70vh;
-}
-
-.abouttext span {
-  margin-left: 11%;
-}
-.abouttext h2 {
-  font-size: 3vw;
-}
-
-.abouttext h3 {
-  font-size: 1.5vw;
-}
 
 /* starting the paragraph part about */
 
-.text {
-  padding: 0 25%;
-  height: 50vh;
+.contnt {
+  padding:  0 25%;
+  height: 85vh;
   width: 100%;
   color: rgba(255, 246, 246, 0.918);
+  text-align: center;
 }
-.headingabout {
-  font-weight: bold;
-  font-size: 1.5vw;
-  margin-left: 30%;
-}
-
-.headingabout h2 {
-  padding-left: 10%;
-  width: 7vw;
-}
-.lefttext {
-  float: left;
-  padding: 4% 4% 0 0%;
-  width: 50%;
-}
-.righttext {
-  float: right;
-  padding: 4% 4% 0 0%;
-  width: 50%;
+.contnt video{
+margin: 7.5vw;
+width: 60%;
+height: 50%;
+margin: 15vh 0 0 0;
 }
 
-/* the end of "about" text   */
 
-/* starting form inputs  */
-.contactme {
-  margin: 5% 10% 5% 37%;
-}
-.contactme span {
-  padding: 2% 0 0 7%;
-}
-.contactme h2 {
-  padding: 2% 0 0 7%;
-}
-/* startint the form */
-.forminput {
-  position: relative;
-  margin: 2vw 0 1vw;
-}
 
-input,
-textarea {
-  font-size: 1vw;
-  padding: 1vh 1vw 1vh 0.5vw;
-  display: block;
-  width: 22vw;
-  border: none;
-  border-bottom: 1px solid #757575;
-}
 
-label {
-  color: #999;
-  font-size: 1.5vw;
-  font-weight: normal;
-  position: absolute;
-  pointer-events: none;
-  left: 0.5vw;
-  top: 0.5vh;
-}
 
-.forminput .btn {
-  color:#ffffff;
-  opacity: 0.6;}
 
-/* ending form inputs  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* starting foorter  */
 .footer {
@@ -185,22 +140,22 @@ label {
 
 .footer .location {
   float: left;
-  padding: 1% 2%;
+  padding: 1% ;
   font-weight: 700;
-  width: 33%;
+  width: 30%;
   font-size: 1.3vw;
 }
 
 .footer .social-media {
   float: left;
-  width: 33.3%;
+  width: 35%;
   background-color: transparent;
   color: rgb(246, 248, 250);
-  padding: 1% 2% 1% 6%;
+  padding: 2% ;
 }
 
 .footer .social-media .icons{
-  padding-left: 14%;
+  padding-left: 10%;
 }
 .footer .social-media .icons .icon {
   text-decoration: none;
@@ -209,13 +164,13 @@ label {
   border: 0.1vw solid #ffffff;
 border-radius: 50%;
 float: left;
-padding: 2%;
+padding: 1%;
 
 }
 
 .footer .freelancer {
   float: left;
-  width: 33%;
+  width: 30%;
   padding:1% 2% 0 2% ;
 }
 .footer .freelancer span {
@@ -223,9 +178,10 @@ padding: 2%;
   text-decoration: underline;
 }
 
-.footer .theSmallFooter {
+/* .footer .theSmallFooter {
   width: 100%;
+
   background-color: #151e27;
   color: rgb(240, 232, 220);
   text-align: center;
-}
+} */
