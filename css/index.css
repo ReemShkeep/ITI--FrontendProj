@@ -213,6 +213,7 @@ padding: 2%;
 
 }
 
+
 .footer .freelancer {
   float: left;
   width: 33%;
@@ -229,3 +230,63 @@ padding: 2%;
   color: rgb(240, 232, 220);
   text-align: center;
 }
+
+
+
+
+
+
+
+
+/* starting in card in register page  */
+.card {
+  width: 19%;
+  height: 19%;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  width: 24%;
+  height: 12%;
+  border-radius: 50%;
+  position: relative;
+  top: 19%;
+  left: 38%;
+}
+
+div.title {
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+span.card-login {
+  font-size: 300%;
+}
+
+#submit-button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+
+
+form {
+  display: block;
+  width: fit-content;
+  margin: -8% 3% 80% 0%;
+  padding: 18% 9%;
+  border: 0.2vw solid white;
+}
+
+
+
+/* ending in card in register page  */
